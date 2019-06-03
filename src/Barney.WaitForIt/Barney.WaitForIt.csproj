@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageProjectUrl>https://github.com/acessocard/Barney.WaitForIt</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/acessocard/Barney.WaitForIt</RepositoryUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <Description>A simple helper to perform async application initialization in .NET Core 2.0 or higher, for console applications.</Description>
+    <Product />
+    <Company>Acesso</Company>
+    <Authors>Fabricio Nascimento</Authors>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>.net core;netcore;async;initialization</PackageTags>
+    <Version>1.0.0-beta.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Barney.WaitForIt.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>
